@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "name" : "Amazing Person",
-    "subscribedToChannel": "CringeChannel123"
+    "subscribedToChannel": "AmazingChannel123"
 }
 
 ###
