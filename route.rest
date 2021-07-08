@@ -1,0 +1,29 @@
+GET http://localhost:3000/subscribers
+
+
+###
+
+GET http://localhost:3000/subscribers/60e67c4eb6307fc89cd20bfc
+
+
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Amazing Person",
+    "subscribedToChannel": "CringeChannel123"
+}
+
+###
+DELETE http://localhost:3000/subscribers/60e685a5b6307fc89cd20c0f
+
+###
+PATCH http://localhost:3000/subscribers/60e67c4eb6307fc89cd20bfc
+Content-Type: application/json
+
+{
+    "name": "New Name"
+}
